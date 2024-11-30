@@ -115,7 +115,7 @@ function showNotification(){
 // Function to fetch the joke
 async function fetchJoke(callback) {
     try {
-        const apiUrl = `https://v2.jokeapi.dev/joke/Any?type=twopart`; // Retrieve the joke from the api
+        const apiUrl = `https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=twopart`; // Retrieve the joke from the api
         const response = await fetch(apiUrl);
         const jokeData = await response.json();
         callback(jokeData); // Callback function to handle the data

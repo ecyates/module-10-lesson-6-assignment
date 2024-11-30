@@ -75,10 +75,10 @@ const updateCharacters = () => {
     const characterContainer = document.getElementById('marvelCharacters');
     characterContainer.innerHTML = "";
     const faveCharacters = [70, 620, 644, 346, 265, 720, 332, 149, 643];
-    //let faveCharacters = [];
-    //for(let i=1; i<=731; i++){
-    //    faveCharacters.push(i);
-    //}
+    // let faveCharacters = [];
+    // for(let i=1; i<=731; i++){
+    //     faveCharacters.push(i);
+    // }
     faveCharacters.forEach(character => fetchCharacters(handleCharacters, character)); 
 };
 
