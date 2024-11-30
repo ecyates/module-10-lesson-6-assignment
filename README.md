@@ -1,7 +1,15 @@
 # Module 10 - Lesson 6 - Async JavaScript and API Interaction
 Author: Elizabeth Yates
 
+In this repository, I completed the following assignment. 
+
 ## 1. Exploring Asynchronous JavaScript
+
+**Author's Note**: I used my 5-year-old son, Dante for inspiration, naming the the page "Dante's Favorite Superheroes". So as not to overwhelm the site, I chose to only feature Dante's favorite superheroes, utilizing a superheroes api that includes all superheroes, not just Marvel's: https://superheroapi.com/ids.html. 
+
+The site generate cards for each superhero that you can click on and it will give all the details for the superhero. At the bottom of the page, it provides a button to return. 
+
+For ease, I'm using the Bootstrap framework for styling. 
 
 **Objective**: The objective of this assignment is to familiarize students with asynchronous JavaScript concepts using promises and the Fetch API, and demonstrate their practical application in interacting with external APIs.
 
@@ -46,7 +54,8 @@ Author: Elizabeth Yates
 
 ### Task 3: Repeat Notification
 
-- Develop a function that repeatedly displays a notification at fixed intervals until the user dismisses it. Use setInterval to schedule the notifications.
+- Develop a function that repeatedly displays a notification at fixed intervals until the user dismisses it. 
+- Use setInterval to schedule the notifications.
 
 **Expected Outcomes**:
 
